@@ -1,14 +1,15 @@
 :root {
     font-size: 62.5%;
+    --mycolor: #01724c;
 }
         body{
             text-align: center;
             margin: 0;
-            background: #01724c;
+            background: var(--mycolor);
         }
         header {
             height: 100px;
-            background: #01724c;
+            background: var(--mycolor);
             display: flex;
             justify-content: flex-end;
 
