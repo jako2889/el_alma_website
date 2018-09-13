@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "kategori": "forretter",
+    "navn": "tortilla chips",
+    "billede": "tortillachips",
+    "beskrivelse": "homemade crunchy corn tortillas serves with homemade soup.",
+    "pris": 64
+  },
+  {
+    "id": 2,
+    "kategori": "forretter",
+    "navn": "homemade soup",
+    "billede": "homemadesoup",
+    "beskrivelse": "our soup changes every week, ask the waiter the weeks soup.",
+    "pris": 79
+  },
+  {
+    "id": 3,
+    "kategori": "forretter",
+    "navn": "nachos con salsa",
+    "billede": "nachosconsalsa",
+    "beskrivelse": "homemade crunchy corn tortillas topped with melted cheese and jalapenos, serves with homemade salsa.",
+    "pris": 79
+  },
+  {
+    "id": 4,
+    "kategori": "forretter",
+    "navn": "mexicansk rejecocktail",
+    "billede": "mexicanskrejecocktail",
+    "beskrivelse": "deep fried corn tortillas filled with scampies and homemade mango salsa, avocado and chilli-lime sauce.",
+    "pris": 99
+  },
+  {
+    "id": 5,
+    "kategori": "forretter",
+    "navn": "chilli con queso",
+    "billede": "chilliconqueso",
+    "beskrivelse": "homemade corn tortillas, topped with sauted shallot, tomatoes and jalapenos, blended with melted cheddar cheese and sour cream.",
+    "pris": 85
+  },
+  {
+    "id": 6,
+    "kategori": "hovedretter",
+    "navn": "pollo picante",
+    "billede": "pollopicante",
+    "beskrivelse": "spicy, delicious chicken breast, 200g, serves with corn tortillas topped with mango salsa and cheddar cheese, homemade salsa and guacamole, sour cream.",
+    "pris": 179
+  },
+  {
+    "id": 7,
+    "kategori": "hovedretter",
+    "navn": "burrito",
+    "billede": "burrito",
+    "beskrivelse": "whole flour tortilla filled with a choice of chicken or shredded beef, pinto beans, cheddar cheese jalapenos, serves with rice and spicy sauce.",
+    "pris": 169
+  },
+  {
+    "id": 8,
+    "kategori": "hovedretter",
+    "navn": "chimichanga",
+    "billede": "chimichanga",
+    "beskrivelse": "deep fried flour tortilla filled with a choice of chicken of shredded beef, pinto beans, cheddar cheese and jalapenos, topped with guacamole, serves with mexican rice and spicy sauce.",
+    "pris": 179
+  },
+  {
+    "id": 9,
+    "kategori": "hovedretter",
+    "navn": "tamales",
+    "billede": "tamales",
+    "beskrivelse": "traditional mesoamerican dish made of masa or dough which is steamed in a corn husk or banana leaf. Filled with beef, cheddar cheese and chilli-lime sauce.",
+    "pris": 120
+  },
+  {
+    "id": 10,
+    "kategori": "hovedretter",
+    "navn": "vegetarian enchiladas",
+    "billede": "vegetarianenchiladas",
+    "beskrivelse": "corn tortillas filled with sauteed artichokes, shallot, tomatoes, jalapenos and fresh cilantro in a creamy sauce with mexican rice and enchilada sauce.",
+    "pris": 149
+  },
+  {
+    "id": 11,
+    "kategori": "hovedretter",
+    "navn": "lomo con papas",
+    "billede": "lomoconpapas",
+    "beskrivelse": "grilled and spiced filet mignon, serves with cheddar cheese oven baked potatoes with delicate turmeric sauce.",
+    "pris": 269
+  },
+  {
+    "id": 12,
+    "kategori": "desserter",
+    "navn": "mexican ice cream",
+    "billede": "mexicanicecream",
+    "beskrivelse": "vanilla ice cream with tequila and kahlua, serves with fruit of the season.",
+    "pris": 89
+  },
+  {
+    "id": 13,
+    "kategori": "desserter",
+    "navn": "bunuelos",
+    "billede": "bunuelos",
+    "beskrivelse": "crunchy little pancakes topped with sugar and cinnamon, serves with vanilla ice cream, and the fruit of the season.",
+    "pris": 89
+  },
+  {
+    "id": 14,
+    "kategori": "desserter",
+    "navn": "calavera de azucar",
+    "billede": "calaveradeazucar",
+    "beskrivelse": "an edible sugar skull, filled with creamy chocolate and crunchy nuts. Served with the fruit of the season.",
+    "pris": 99
+  },
+  {
+    "id": 15,
+    "kategori": "desserter",
+    "navn": "bananasplit",
+    "billede": "bananasplit",
+    "beskrivelse": "banana with vanilla ice cream, chocolate sauce, whipped cream serves with fruits of the season.",
+    "pris": 89
+  },
+  {
+    "id": 16,
+    "kategori": "drikkevarer",
+    "navn": "americano",
+    "billede": "americano",
+    "beskrivelse": "americano coffee made of colombian beans with water.",
+    "pris": 49
+  },
+  {
+    "id": 17,
+    "kategori": "drikkevarer",
+    "navn": "espresso",
+    "billede": "espresso",
+    "beskrivelse": "espresso made of colombian beans.",
+    "pris": 35
+  },
+  {
+    "id": 18,
+    "kategori": "drikkevarer",
+    "navn": "the",
+    "billede": "the",
+    "beskrivelse": "ask the waiter for varitions of stock.",
+    "pris": 20
+  },
+  {
+    "id": 19,
+    "kategori": "drikkevarer",
+    "navn": "soda",
+    "billede": "soda",
+    "beskrivelse": "ask the waiter for varitions of stock.",
+    "pris": 25
+  },
+  {
+    "id": 20,
+    "kategori": "drikkevarer",
+    "navn": "mojito",
+    "billede": "mojito",
+    "beskrivelse": "lime 4 cl. havana rom, 1 cl. angostura, handfull of mynthe lime, one spoon of brown sugar.",
+    "pris": 99
+  },
+  {
+    "id": 21,
+    "kategori": "drikkevarer",
+    "navn": "pina colada",
+    "billede": "pinacolada",
+    "beskrivelse": "4 cl. rum, fresh pineapple, whipped cream and coconut milk.",
+    "pris": 99
+  }
+]
