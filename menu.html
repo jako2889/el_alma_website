@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant El Alma</title>
+    <link href="menu.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+<body>
+     <div id="modal">
+        <div id="modal-content">
+            <button>close</button>
+            <h2 id="modal-navn"></h2>
+            <img id="modal-billede" src="" alt="">
+            <p id="langBeskrivelse"></p>
+            <p id="oprindelse"></p>
+    <!--...mere… -->
+        </div>
+    </div>
+ <header>
+ <div id="titel"><h1>Bistro Babushka</h1></div>
+
+<nav>
+<button class="menu-item" data-kategori="alle">Alle</button>
+<button class="menu-item" data-kategori="forretter">Forretter</button>
+<button class="menu-item" data-kategori="hovedretter">Hovedretter</button>
+<button class="menu-item" data-kategori="desserter">Desserter</button>
+<button class="menu-item" data-kategori="drikkevarer">Drikkevarer</button>
+<button class="menu-item" data-kategori="sideorders">sideorders</button>
+</nav>
+<div id="side_navn"><h1></h1></div>
+ </header>
+
+
+
+ <main class="container">
+  <section id="eventcontainer">
+
+ </section>
+ </main>
+
+     <template id="event-template">
+    <article class="ret">
+    <h2 id="data-ret"></h2>
+    <img id="data-billede" src="" alt="">
+    <p id="data-beskrivelse"></p>
+    <p id="data-pris"></p>
+    </article>
+   </template>
+
+
+<script src="menu.js"></script>
+</body>
+</html>
