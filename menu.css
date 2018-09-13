@@ -1,13 +1,16 @@
-
+:root {
+    font-size: 62.5%;
+}
         body{
             text-align: center;
             margin: 0;
-            background: orange;
+            background: #01724c;
         }
         header {
             height: 100px;
             background: #01724c;
             display: flex;
+            justify-content: flex-end;
 
         }
 nav {
@@ -21,8 +24,9 @@ nav {
     cursor: pointer;
     outline: inherit;
     color: white;
-
-
+padding-right: 1em;
+font-size: 2rem;
+    font-family: 'Lobster', cursive;
 }
 
 .dropdown {
@@ -63,23 +67,36 @@ nav {
     color: white;
 
     padding-left: 2em;
-
-
+    font-size: 1.5rem;
+font-family: 'Lobster', cursive;
         }
 a {
     color: white;
     text-decoration: none;
+    padding-right: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
 }
         h1 {
             font-family: cursive;
             text-transform: capitalize;
+            color: white;
+            font-size: 2.5rem;
+            font-family: 'Lobster', cursive;
+
         }
         h2 {
             font-family: cursive;
             text-transform: capitalize;
+            color: white;
+            font-size: 2rem;
+            font-family: 'Righteous', cursive;
         }
         p {
             font-family: cursive;
+            color: white;
+            font-size: 1.6rem;
+            font-family: open sans;
         }
         #eventcontainer {
                 display: grid;
@@ -149,5 +166,5 @@ a {
 
         #side_navn h1 {
             text-decoration: underline;
-            font-family: 'Russo One', sans-serif;
+            font-family: 'lobster', cursive;
         }
