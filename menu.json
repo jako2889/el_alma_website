@@ -2,17 +2,17 @@
   {
     "id": 1,
     "kategori": "forretter",
-    "navn": "tortilla chips",
-    "billede": "tortillachips",
-    "beskrivelse": "homemade crunchy corn tortillas serves with homemade soup.",
+    "navn": "camarones",
+    "billede": "camarones",
+    "beskrivelse": "Fajita-style shrimp, onions and bell peppers served with a mild chipotle sour cream.",
     "pris": 64
   },
   {
     "id": 2,
     "kategori": "forretter",
-    "navn": "homemade soup",
-    "billede": "homemadesoup",
-    "beskrivelse": "our soup changes every week, ask the waiter the weeks soup.",
+    "navn": "quesadilla",
+    "billede": "quesadilla",
+    "beskrivelse": "Queso panela, grilled and served with a mild chipotle sour cream.",
     "pris": 79
   },
   {
@@ -26,9 +26,9 @@
   {
     "id": 4,
     "kategori": "forretter",
-    "navn": "mexicansk rejecocktail",
-    "billede": "mexicanskrejecocktail",
-    "beskrivelse": "deep fried corn tortillas filled with scampies and homemade mango salsa, avocado and chilli-lime sauce.",
+    "navn": "Chiles Toreados",
+    "billede": "chilestoreados",
+    "beskrivelse": "Habanero, serrano, jalapeno, and thai chiles blistered together over high heat. Served on top black beans. Adjustments kindly declined. This taco is extremely spicy.",
     "pris": 99
   },
   {
@@ -98,25 +98,25 @@
   {
     "id": 13,
     "kategori": "desserter",
-    "navn": "bunuelos",
-    "billede": "bunuelos",
+    "navn": "pancakes",
+    "billede": "pancakes",
     "beskrivelse": "crunchy little pancakes topped with sugar and cinnamon, serves with vanilla ice cream, and the fruit of the season.",
     "pris": 89
   },
   {
     "id": 14,
     "kategori": "desserter",
-    "navn": "calavera de azucar",
-    "billede": "calaveradeazucar",
-    "beskrivelse": "an edible sugar skull, filled with creamy chocolate and crunchy nuts. Served with the fruit of the season.",
+    "navn": "tres leches",
+    "billede": "tresleches",
+    "beskrivelse": "sponge cake, sweetened condensed milk, cream, coconut milk.",
     "pris": 99
   },
   {
     "id": 15,
     "kategori": "desserter",
-    "navn": "bananasplit",
-    "billede": "bananasplit",
-    "beskrivelse": "banana with vanilla ice cream, chocolate sauce, whipped cream serves with fruits of the season.",
+    "navn": "Hibisicus",
+    "billede": "Hibisicus",
+    "beskrivelse": "Hibisicus Tea, Chili powder. Also available with Mezca.",
     "pris": 89
   },
   {
@@ -138,21 +138,13 @@
   {
     "id": 18,
     "kategori": "drikkevarer",
-    "navn": "the",
-    "billede": "the",
-    "beskrivelse": "ask the waiter for varitions of stock.",
-    "pris": 20
-  },
-  {
-    "id": 19,
-    "kategori": "drikkevarer",
     "navn": "soda",
     "billede": "soda",
     "beskrivelse": "ask the waiter for varitions of stock.",
     "pris": 25
   },
   {
-    "id": 20,
+    "id": 19,
     "kategori": "drikkevarer",
     "navn": "mojito",
     "billede": "mojito",
@@ -160,10 +152,10 @@
     "pris": 99
   },
   {
-    "id": 21,
+    "id": 20,
     "kategori": "drikkevarer",
-    "navn": "pina colada",
-    "billede": "pinacolada",
+    "navn": "sangria",
+    "billede": "sangria",
     "beskrivelse": "4 cl. rum, fresh pineapple, whipped cream and coconut milk.",
     "pris": 99
   }
