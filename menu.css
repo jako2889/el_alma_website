@@ -1,21 +1,90 @@
 :root {
     font-size: 62.5%;
-    --mycolor: #01724c;
+    --bodycolor: black;
+    --headercolor: #01724c;
+    --lettercolor: #fff;
 }
         body{
             text-align: center;
             margin: 0;
-            background: var(--mycolor);
+            background: var(--bodycolor);
         }
         header {
-            height: 100px;
-            background: var(--mycolor);
-            display: flex;
-            justify-content: flex-end;
+            height: 400px;
+            width: 100vw;
+            background-image: url("splash_menu.png");
+
 
         }
+footer {
+    height: 400px;
+    background: var(--headercolor);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 150px;
+}
+#footer1 {
+    grid-column-start: span 2;
+    grid-row-start: 2;
+    background: var(--headercolor);
+
+    display: flex;
+    justify-content: center;
+}
+
+#footer2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    background: #f17205;
+
+    display: flex;
+    justify-content: center;
+}
+#footer2 p {
+    width: 400px;
+}
+#footer3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    background: #0277bd;
+
+    display: flex;
+    justify-content: center;
+}
+#footer3 p {
+    width: 400px;
+}
 nav {
-    align-self: center;
+                position: fixed;
+                top: 0;
+                height: 100px;
+                width: 100%;
+/*                background: var(--headercolor);*/
+
+
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+}
+#links {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+                display: flex;
+                justify-content: flex-end;
+}
+#logo_nav {
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    display: flex;
+    justify-content: flex-start;
+}
+#logo_nav img {
+    width: 80px;
+    height: 80px;
+    padding-left: 3em;
 }
 .dropbtn {
     background: none;
@@ -29,17 +98,21 @@ padding-right: 1em;
 font-size: 2rem;
     font-family: 'Lobster', cursive;
 }
+.dropbtn:hover {
+    color: #ebebeb;
+}
 
 .dropdown {
     position: relative;
     display: inline-block;
     text-align: left;
+   align-self: center;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #01724c;
+/*    background-color: black;*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -49,16 +122,29 @@ font-size: 2rem;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+
+}
+.dropdown-content button:hover {
+    color: #ebebeb;
 }
 
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
-        button {
+#modal button {
+            width: 100px;
+            height: 30px;
+            border-radius: 0px;
+            background: #f17205;
+            border: none;
+            margin-top: 2em;
+
+
+        }
+   button {
     background: none;
     border: none;
     padding: 0;
@@ -67,9 +153,10 @@ font-size: 2rem;
     outline: inherit;
     color: white;
 
-    padding-left: 2em;
+    padding-left: 0em;
     font-size: 1.5rem;
 font-family: 'Lobster', cursive;
+
         }
 a {
     color: white;
@@ -77,11 +164,16 @@ a {
     padding-right: 1.5rem;
     font-size: 2rem;
     font-family: 'Lobster', cursive;
+        align-self: center;
+
+}
+a:hover {
+    color: #ebebeb;
 }
         h1 {
             font-family: cursive;
             text-transform: capitalize;
-            color: white;
+            color: var(--lettercolor);
             font-size: 2.5rem;
             font-family: 'Lobster', cursive;
 
@@ -89,13 +181,13 @@ a {
         h2 {
             font-family: cursive;
             text-transform: capitalize;
-            color: white;
+            color: var(--lettercolor);
             font-size: 2rem;
             font-family: 'Righteous', cursive;
         }
         p {
             font-family: cursive;
-            color: white;
+            color: var(--lettercolor);
             font-size: 1.6rem;
             font-family: open sans;
         }
@@ -109,6 +201,10 @@ a {
             box-shadow: 1px 2px 2px;
             border-radius: 10px;
         }
+
+.ret img:hover {
+    color: #ebebeb;
+}
         @media screen and (max-width:1225px) {
             #eventcontainer {
                 grid-template-columns: 1fr 1fr;
@@ -150,8 +246,8 @@ a {
 
             #modal-content {
                 width: 80vw;
-                height: 70vh;
-                background: #fff;
+                height: 80vh;
+                background: var(--headercolor);
                 margin: auto;
                 padding-top: 3em;
                 margin-top: 5em;
@@ -164,6 +260,11 @@ a {
             transition: 0.5s;
             }
 
+            #modal-billede {
+                width: 550px;
+/*                box-shadow: 1px 2px 2px;*/
+                border-radius: 10px;
+            }
 
         #side_navn h1 {
             text-decoration: underline;

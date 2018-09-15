@@ -54,8 +54,8 @@ function visRetter() {
            modal.querySelector("#modal-navn").textContent = ret.navn;
            modal.querySelector("#modal-billede").src = "imgs/small/" + ret.billede + "-sm.jpg";
            modal.querySelector("#modal-billede").alt = "Foto af " + ret.navn;
-           modal.querySelector("#langBeskrivelse").textContent = ret.langbeskrivelse;
-           modal.querySelector("#oprindelse").textContent = ret.oprindelsesregion;
+           modal.querySelector("#langBeskrivelse").textContent = ret.beskrivelse;
+           modal.querySelector("#modal-pris").textContent = ret.pris + "kr DKK";
            modal.querySelector("button").addEventListener("click", skjulModal);
        }
        function skjulModal() {
