@@ -1,6 +1,6 @@
 :root {
     font-size: 62.5%;
-    --bodycolor: #01724c;
+    --bodycolor: black;
     --headercolor: #01724c;
     --lettercolor: #fff;
     --orangesection: #f17205;
@@ -194,12 +194,28 @@ a:hover {
         }
 .mapouter{
     text-align:right;
-    height:500px;
-    width:600px;
+    height:400px;
+    width:100vw;
 }
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
     height:500px;
-    width:600px;
+    width:100vw;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+iframe {
+    width: 100vw;
+    height: 400px;
+}
+
+#contact_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
 }
