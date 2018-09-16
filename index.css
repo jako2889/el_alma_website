@@ -200,7 +200,7 @@ a:hover {
 #content {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 250px 550px 550px;
+    grid-template-rows: 350px 550px 550px;
     grid-gap: 1em;
 }
 #story_content {
@@ -216,6 +216,12 @@ a:hover {
 #story_content p {
     width: 70vw;
 
+}
+#story_content img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 130vh;
 }
 #mad_container {
     grid-row-start: 2;
