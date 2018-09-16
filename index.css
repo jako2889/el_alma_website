@@ -231,12 +231,36 @@ a:hover {
     grid-column-end: 3;
     width: 30vw;
 }
+.mad_img {
+    display: flex;
+    justify-content: center;
+
+}
+.mad_tekst {
+    display: flex;
+    justify-content: center;
+}
+
 #kultur_container {
     grid-row-start: 3;
     grid-row-end: 4;
         display: grid;
     grid-template-columns: 1fr 1fr;
 
+}
+.kultur_img {
+    display: flex;
+    justify-content: center;
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.kultur_tekst {
+    display: flex;
+    justify-content: center;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 #kultur_container img {
     grid-column-start: 2;
