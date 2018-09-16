@@ -3,6 +3,7 @@
     --bodycolor: #01724c;
     --headercolor: #01724c;
     --lettercolor: #fff;
+    --orangesection: #f17205;
 }
         body{
             text-align: center;
@@ -195,4 +196,54 @@ a:hover {
     width: 200px;
     padding-top: 1.5em;
     padding-bottom: 1em;
+}
+#content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 1fr 1fr;
+}
+#story_content {
+    background: var(--orangesection);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    display: flex;
+    justify-content: center;
+}
+#story_content p {
+    width: 70vw;
+
+}
+#mad_container {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#mad_container img {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#mad_container p {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 30vw;
+}
+#kultur_container {
+    grid-row-start: 3;
+    grid-row-end: 4;
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#kultur_container img {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#kultur_container p {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 30vw;
 }
