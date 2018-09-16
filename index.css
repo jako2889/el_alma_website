@@ -91,6 +91,9 @@ nav {
     padding-left: 3em;
     padding-top: 10px;
 }
+#logo_nav img:hover {
+    opacity: 0.8;
+}
 
 header img {
     width: 400px;

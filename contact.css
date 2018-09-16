@@ -87,11 +87,15 @@ nav {
     display: flex;
     justify-content: flex-start;
 }
+
 #logo_nav img {
     width: 80px;
     height: 80px;
     padding-left: 3em;
     padding-top: 10px;
+}
+#logo_nav img:hover {
+    opacity: 0.8;
 }
 
 header img {
