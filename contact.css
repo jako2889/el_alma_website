@@ -27,7 +27,7 @@ footer {
     background: var(--headercolor);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 150px;
+    grid-template-rows: 290px 90px;
 }
 #footer1 {
     grid-column-start: span 2;
@@ -230,4 +230,16 @@ iframe {
 #about_contact p {
     width: 80vw;
     padding-top: 5em;
+}
+footer ul {
+    list-style-type: none;
+}
+footer a {
+    font-size: 1.2rem;
+}
+footer p {
+    font-size: 1.3rem;
+}
+#footer1 h2 {
+    padding-top: 1.5em;
 }

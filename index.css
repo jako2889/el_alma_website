@@ -27,7 +27,7 @@ footer {
     background: var(--headercolor);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 150px;
+    grid-template-rows: 290px 90px;
 }
 #footer1 {
     grid-column-start: span 2;
@@ -47,9 +47,7 @@ footer {
     display: flex;
     justify-content: center;
 }
-#footer2 p {
-    width: 400px;
-}
+
 #footer3 {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -260,4 +258,16 @@ a:hover {
 }
 #kultur_container p {
     width: 500px;
+}
+footer ul {
+    list-style-type: none;
+}
+footer a {
+    font-size: 1.2rem;
+}
+footer p {
+    font-size: 1.3rem;
+}
+#footer1 h2 {
+    padding-top: 1.5em;
 }
