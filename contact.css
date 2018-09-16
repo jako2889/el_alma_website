@@ -219,3 +219,15 @@ iframe {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px 400px;
 }
+#about_contact {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+#about_contact p {
+    width: 80vw;
+    padding-top: 5em;
+}
