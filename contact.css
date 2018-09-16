@@ -11,7 +11,7 @@
             background: var(--bodycolor);
         }
         header {
-            height: 600px;
+            height: 400px;
             width: 100vw;
             background-image: url("splash_mexi.png");
             background-size: cover;
@@ -95,8 +95,8 @@ nav {
 }
 
 header img {
-    width: 400px;
-    padding-top: 10em;
+    width: 250px;
+    padding-top: 5em;
 
 }
 .dropbtn {
