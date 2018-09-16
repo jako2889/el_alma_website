@@ -215,6 +215,7 @@ a:hover {
 }
 #story_content p {
     width: 70vw;
+    padding-top: 5em;
 
 }
 #story_content img {
