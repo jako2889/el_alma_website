@@ -1,6 +1,6 @@
 :root {
     font-size: 62.5%;
-    --bodycolor: black;
+    --bodycolor: #01724c;
     --headercolor: #01724c;
     --lettercolor: #fff;
 }
@@ -191,3 +191,8 @@ a:hover {
             font-size: 1.6rem;
             font-family: open sans;
         }
+.break_img img {
+    width: 200px;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+}
