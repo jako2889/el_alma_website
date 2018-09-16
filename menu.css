@@ -6,14 +6,19 @@
 }
         body{
             text-align: center;
-            margin: 0;
+            margin: 0 auto;
             background: var(--bodycolor);
         }
         header {
             height: 400px;
             width: 100vw;
-            background-image: url("splash_menu.png");
+            background-image: url("splash_mexi.png");
+            background-size: cover;
 
+                background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
         }
 footer {
@@ -85,6 +90,13 @@ nav {
     width: 80px;
     height: 80px;
     padding-left: 3em;
+    padding-top: 10px;
+}
+
+header img {
+    width: 250px;
+    padding-top: 5em;
+
 }
 .dropbtn {
     background: none;
@@ -251,6 +263,7 @@ a:hover {
                 margin: auto;
                 padding-top: 3em;
                 margin-top: 5em;
+                border-radius: 15px;
             }
 
 
