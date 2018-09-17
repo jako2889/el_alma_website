@@ -221,8 +221,9 @@ a:hover {
 #story_content img {
     width: 100px;
     height: 100px;
-    position: absolute;
-    top: 130vh;
+        position: relative;
+    top: 85%;
+    right: 35%;
 }
 #mad_container {
     grid-row-start: 2;
