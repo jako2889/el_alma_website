@@ -103,6 +103,7 @@ header img {
     padding-top: 5em;
 
 }
+/*
 .dropbtn {
     background: none;
     border: none;
@@ -128,7 +129,7 @@ font-size: 2rem;
 .dropdown-content {
     display: none;
     position: absolute;
-/*    background-color: black;*/
+    background-color: black;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -162,6 +163,7 @@ font-size: 2rem;
 font-family: 'Lobster', cursive;
 
         }
+*/
 a {
     color: white;
     text-decoration: none;
