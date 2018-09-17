@@ -276,3 +276,119 @@ footer p {
 #footer1 h2 {
     padding-top: 1.5em;
 }
+
+        @media screen and (max-width:865px) {
+            footer {
+                width: 100%;
+                grid-template-columns: 1fr;
+                grid-template-rows: 290px 290px 90px;
+                    margin-top: 5em;
+            }
+            #footer1 {
+                width: 100vw;
+                height: 100px;
+            }
+            #footer2 {
+                width: 50vw;
+            }
+            #footer3 {
+                width: 50vw;
+            }
+            #footer2 p {
+                width: 300px;
+            }
+            #footer3 p {
+                width: 300px;
+            }
+            nav {
+                width: 100vw;
+            }
+            footer ul {
+                width: 100%;
+            }
+            #kultur_container p {
+                width: 350px;
+                font-size: 1.4rem;
+                    text-align: justify;
+            }
+
+            #mad_container p {
+                width: 350px;
+                font-size: 1.4rem;
+                    text-align: justify;
+            }
+
+            #kultur_container img {
+                width: 250px;
+                height: 250px;
+            }
+
+            #mad_container img {
+                width: 250px;
+            }
+            #story_content p {
+                padding-top: 2em;
+                font-size: 1.4rem;
+                    text-align: justify;
+            }
+        }
+@media screen and (max-width:550px) {
+    #eventcontainer {
+        grid-template-columns: 1fr;
+
+    }
+    #footer2 p {
+
+        width: 220px;
+    }
+    #footer3 p {
+        width: 220px;
+    }
+    #modal-content {
+        height: 55vh!important;
+        margin-top: 15em!important;
+    }
+    #modal-billede {
+        width: 300px!important;
+
+    }
+    #footer2 p {
+        width: 35vw;
+    }
+    #footer2 a {
+        width: 35vw;
+    }
+    #footer3 p {
+        width: 35vw;
+    }
+    #footer3 a {
+        width: 35vw;
+    }
+    #logo_nav img {
+        padding-left: 1em!important;
+    }
+    #mad_container {
+        display: grid!important;
+        grid-template-columns: 1fr;
+        padding-top: 5em;
+    }
+    #mad_container p {
+        width: 100vw;
+        font-size: 1.3rem;
+    }
+        #kultur_container {
+        display: grid!important;
+        grid-template-columns: 1fr;
+            padding-top: 5em;
+    }
+    #kultur_container p {
+        width: 100vw;
+        font-size: 1.3rem;
+    }
+    #story_content {
+        width: 100vw;
+    }
+    #story_content p {
+    font-size: 1.3rem;
+}
+}
