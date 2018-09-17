@@ -12,7 +12,7 @@
         }
         header {
             height: 400px;
-            width: 100vw;
+            width: 100%;
             background-image: url("splash_mexi.png");
             background-size: cover;
 
@@ -198,13 +198,13 @@ a:hover {
 .mapouter{
     text-align:right;
     height:400px;
-    width:100vw;
+    width:100%;
 }
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
     height:500px;
-    width:100vw;
+    width:100%;
 
     grid-row-start: 2;
     grid-row-end: 3;
@@ -213,7 +213,7 @@ a:hover {
 
 }
 iframe {
-    width: 100vw;
+    width: 98.5vw;
     height: 400px;
 }
 
