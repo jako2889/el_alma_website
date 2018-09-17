@@ -225,11 +225,11 @@ a:hover {
             }
         }
 
-        @media screen and (max-width:865px){
+        @media screen and (max-width:865px) {
             #eventcontainer {
                 grid-template-columns: 1fr;
             }
-             button {
+            button {
                 width: 100px;
                 height: 25px;
             }
@@ -251,13 +251,13 @@ a:hover {
             #footer2 p {
                 width: 300px;
             }
-#footer3 p {
-    width: 300px;
-}
+            #footer3 p {
+                width: 300px;
+            }
             nav {
                 width: 100vw;
             }
-            footer ul{
+            footer ul {
                 width: 100%;
             }
         }
@@ -276,9 +276,28 @@ a:hover {
                 width: 220px;
             }
             #footer3 p {
-    width: 220px;
-}
+                width: 220px;
+            }
+            #modal-content {
+                height: 55vh!important;
+                margin-top: 15em!important;
+            }
+            #modal-billede {
+                width: 300px!important;
+
+            }
         }
+@media screen and (max-width:550px) {
+    #footer2 p {
+        width: 160px;
+    }
+    #footer3 p {
+        width: 160px;
+    }
+    #logo_nav img {
+        padding-left: 1em;
+    }
+}
             #modal {
                 width: 100vw;
                 height: 100vh;
