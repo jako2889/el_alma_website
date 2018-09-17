@@ -224,6 +224,7 @@ a:hover {
             width: 90%;
             box-shadow: 1px 2px 2px;
             border-radius: 10px;
+            cursor: pointer;
         }
 
 .ret img:hover {
