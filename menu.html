@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant El Alma</title>
     <link href="menu.css" type="text/css" rel="stylesheet">
-
+<!--Link til google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lobster|Righteous" rel="stylesheet">
 
 
@@ -13,9 +13,12 @@
 </head>
 
 <body>
+<!--modal vindue som er skjult, men vises igennem js ved en funktion, når en ret img vælges-->
      <div id="modal">
         <div id="modal-content">
+           <!--Button til at lukke modalvinduet-->
             <button>close</button>
+            <!--forskellige elementer i modalvinduet der hentes vha json og js-->
             <h2 id="modal-navn"></h2>
             <img id="modal-billede" src="" alt="">
             <p id="langBeskrivelse"></p>
@@ -28,11 +31,13 @@
 
 <img src="menu_logo.png" alt="logo menu">
 <nav>
+<!--logo med hyperlink der sender dig tilbage til index.html-->
 <div id="logo_nav">
    <a href="index.html">
     <img src="logo_nav.png" alt="logo">
     </a>
 </div>
+<!--Navigations dropdown menu med button til at filtrere de forskellige retter med classes der henter json data gennem js-->
 <div id="links">
 <a href="index.html">Welcome</a>
 <div class="dropdown">
@@ -52,6 +57,7 @@
 
 
  </header>
+ <!--menu fastlåst i body til mere brugervenligt filtrering af retter ligesom i dropdown menu-->
  <div id="body_nav">
 <button class="menu-item" data-kategori="alle">Alle</button>
 <button class="menu-item" data-kategori="forretter">Forretter</button>
@@ -60,6 +66,7 @@
 <button class="menu-item" data-kategori="drikkevarer">Drikkevarer</button>
 </div>
 
+<!--h1 navn der gennem js i funktion viser de forskellige kategori retter der er valgt-->
 <div id="side_navn"><h1></h1></div>
 
 
@@ -68,7 +75,7 @@
 
  </section>
  </main>
-
+<!--template, der ikke er synlig, til visning af de forskellige retter, bliver vist gennem js-->
      <template id="event-template">
     <article class="ret">
     <h2 id="data-ret"></h2>
