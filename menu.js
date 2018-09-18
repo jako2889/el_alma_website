@@ -1,10 +1,12 @@
-
+//Her definerer vi de forskellige globale variabler, der skal bruges i flere funktioner.
 let event,
     modtager = document.querySelector("#eventcontainer"),
     retFilter = "alle",
     modal = document.querySelector("#modal");
 document.addEventListener("DOMContentLoaded", getJson);
 
+//Her bruger vi en async funktion til at hente vores json.
+//I funktionen kalder vi også næste funktion VisRetter.
 async function getJson(){
 
     //HENT Json
@@ -14,10 +16,12 @@ async function getJson(){
 
     visRetter();
 }
-//EVENTLISTENERES PÅ ALLE KNAPPER
+//Her laver vi eventlisteneres på alle buttons, som så kalder funktionen filtrering ved click.
 document.querySelectorAll(".menu-item").forEach( knap =>{
     knap.addEventListener("click", filtrering)
 });
+// Denne funktion henter data-værdien, kategori på button med class menu
+// Dette giver variablen retFilter
 function filtrering(){
     modtager.textContent = "";
     retFilter=this.getAttribute("data-kategori");
@@ -25,6 +29,11 @@ function filtrering(){
     console.log("filter");
 }
 
+// Her laver vi en lokal variable så det blir nemmere at arbejde med.
+// Viser retterne i arrayet ret i modtager.
+// Vi henter retterne ind i template-tagget.
+// Vi bruger også en arrow funktion til vores if statement.
+// Vi sætter eventlistener med click på retternes billeder og kalder VisModal.
 function visRetter() {
     let myTemplate = document.querySelector("#event-template");
     document.querySelector("#side_navn h1").textContent = retFilter;

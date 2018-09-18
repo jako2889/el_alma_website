@@ -1,4 +1,5 @@
 :root {
+    /*I root, hvilket svarer til alt i vinduet og trumfer over html, definerer jeg variabler til farver på siden. Dette er smart fordi så kan jeg bare ændre farven i root.*/
     font-size: 62.5%;
     --bodycolor: black;
     --headercolor: #01724c;
@@ -7,6 +8,7 @@
         body{
             text-align: center;
             margin: 0 auto;
+    /*Her kan man se jeg har benyttet en variable.*/
             background: var(--bodycolor);
         }
         header {
@@ -24,11 +26,13 @@
 footer {
     height: 400px;
     background: var(--headercolor);
+    /*Herunder benytter jeg display grid i min parent element, til at udvikle mit layout på min footer. Her har jeg bedt om 2 colums og 2 rows med en bestemt størrelse.*/
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 290px 90px;
 }
 #footer1 {
+    /*I min første div child element til footeren har jeg bedt den span 2 columns og starte i row 2.*/
     grid-column-start: span 2;
     grid-row-start: 2;
     background: var(--headercolor);
@@ -315,13 +319,13 @@ a:hover {
                 background: rgba(0, 0, 0, .8);
                 position: fixed;
                 text-align: center;
-
+/*Modal vinduet skal først vises når der blir klikket på en ret og derfor skal opacity være 0, altså skjult*/
                 opacity: 0;
                 pointer-events: none;
                 transition: 1s;
             }
 
-
+/*Her har vi selve modal indholdet/boksen som skal havde en farve og width samt height*/
             #modal-content {
                 width: 80vw;
                 height: 80vh;
@@ -332,13 +336,13 @@ a:hover {
                 border-radius: 15px;
             }
 
-
+/*Her i #modal.vis henter vi gennem js class .vis når der blir klikket på en ret*/
             #modal.vis {
             opacity: 1;
             pointer-events: all;
             transition: 0.5s;
             }
-
+/*Da vi også skal havde et større billede af retten skal det også defineres*/
             #modal-billede {
                 width: 550px;
 /*                box-shadow: 1px 2px 2px;*/
