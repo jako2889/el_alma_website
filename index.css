@@ -334,6 +334,13 @@ footer p {
                 font-size: 1.4rem;
                     text-align: justify;
             }
+                                  header a {
+                font-size: 1.5rem;
+            }
+            header img {
+    width: 325px;
+    padding-top: 10em;
+}
         }
 @media screen and (max-width:550px) {
     #eventcontainer {

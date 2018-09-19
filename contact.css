@@ -300,6 +300,9 @@ footer p {
                 width: 300px!important;
 
             }
+            header a {
+                font-size: 1.5rem;
+            }
         }
 @media screen and (max-width:550px) {
     #footer2 p {

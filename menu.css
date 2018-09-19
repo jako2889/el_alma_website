@@ -283,7 +283,7 @@ a:hover {
 
             }
             button {
-                width: 100px;
+                width: 18%;
                 height: 25px;
             }
             #footer2 p {
@@ -313,6 +313,9 @@ a:hover {
         padding-left: 1em;
     }
     #body_nav button {
+        font-size: 1.5rem;
+    }
+    header a {
         font-size: 1.5rem;
     }
 }
