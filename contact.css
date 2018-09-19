@@ -235,6 +235,7 @@ iframe {
 #about_contact p {
     width: 80vw;
     padding-top: 5em;
+    text-align: justify;
 }
 footer ul {
     list-style-type: none;

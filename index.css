@@ -218,6 +218,7 @@ a:hover {
 #story_content p {
     width: 70vw;
     padding-top: 5em;
+    text-align: justify;
 
 }
 #story_content img {
@@ -243,6 +244,7 @@ a:hover {
 }
 #mad_container p {
     width: 500px;
+    text-align: justify;
 }
 
 #kultur_container {
@@ -263,6 +265,7 @@ a:hover {
 }
 #kultur_container p {
     width: 500px;
+    text-align: justify;
 }
 footer ul {
     list-style-type: none;

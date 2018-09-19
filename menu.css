@@ -312,6 +312,9 @@ a:hover {
     #logo_nav img {
         padding-left: 1em;
     }
+    #body_nav button {
+        font-size: 1.5rem;
+    }
 }
             #modal {
                 width: 100vw;
