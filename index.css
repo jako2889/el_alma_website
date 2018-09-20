@@ -401,4 +401,7 @@ footer p {
     #story_content p {
     font-size: 1.3rem;
 }
+    #story_content img {
+        display: none;
+    }
 }
