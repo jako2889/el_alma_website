@@ -300,9 +300,6 @@ footer p {
                 width: 300px!important;
 
             }
-            header a {
-                font-size: 1.5rem;
-            }
         }
 @media screen and (max-width:550px) {
     #footer2 p {
@@ -313,5 +310,44 @@ footer p {
     }
     #logo_nav img {
         padding-left: 1em!important;
+    }
+}
+
+/*HAMBURGER MENU TIL MOBILE*/
+label {
+    margin: 0 40px 0 0;
+    font-size: 2.6rem;
+    display: none;
+    width: 26px;
+    position: relative;
+    left: 40vw;
+    top: 5vw;
+    color: white;
+}
+#toggle {
+    display: none;
+}
+@media screen and (max-width:550px) {
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    #links {
+        text-align: center;
+        width: 100%;
+        display: none;
+        grid-column-start: span 2;
+    }
+    #links a {
+        display: block;
+        margin: 0;
+        padding: 10px;
+    }
+    #toggle:checked + #links {
+        display: block;
+        background: rgba(0, 0, 0, 0.88);
+    }
+    nav {
+        background: rgba(0, 0, 0, 0.88);
     }
 }
