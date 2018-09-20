@@ -31,28 +31,21 @@
 
 <img src="menu_logo.png" alt="logo menu">
 <nav>
-<!--logo med hyperlink der sender dig tilbage til index.html-->
-<div id="logo_nav">
-   <a href="index.html">
+    <!--logo med hyperlink der sender dig tilbage til index.html-->
+    <div id="logo_nav">
+        <a href="index.html">
     <img src="logo_nav.png" alt="logo">
     </a>
-</div>
-<!--Navigations dropdown menu med button til at filtrere de forskellige retter med classes der henter json data gennem js-->
-<div id="links">
-<a href="index.html">Welcome</a>
-<div class="dropdown">
-  <button class="dropbtn"><a href="menu.html">Menu</a></button>
-  <div class="dropdown-content">
-<button class="menu-item" data-kategori="alle">Alle</button>
-<button class="menu-item" data-kategori="forretter">Forretter</button>
-<button class="menu-item" data-kategori="hovedretter">Hovedretter</button>
-<button class="menu-item" data-kategori="desserter">Desserter</button>
-<button class="menu-item" data-kategori="drikkevarer">Drikkevarer</button>
-  </div>
-</div>
-<a href="gallery.html">Gallery</a>
-<a href="contact.html">Contact</a>
-</div>
+    </div>
+    <!--Navigations burger menu til mobile responsive-->
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle" />
+    <div id="links">
+        <a href="index.html">Welcome</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
 </nav>
 
 
